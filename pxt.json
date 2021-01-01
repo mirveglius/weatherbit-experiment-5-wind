@@ -1,0 +1,23 @@
+{
+    "name": "Weather:Bit Experiment 5: Wind",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "weatherbit": "github:sparkfun/pxt-weather-bit#v0.0.12",
+        "microphone": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
