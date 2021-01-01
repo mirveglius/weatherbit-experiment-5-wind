@@ -18,4 +18,5 @@ basic.forever(function () {
         basic.showString(current_WindDirection_List)
     }
     serial.writeLine("" + current_WindSpeed + "," + current_WindDirection_List)
+    bluetooth.uartWriteLine("" + current_WindSpeed + ";" + weatherbit.windDirection())
 })

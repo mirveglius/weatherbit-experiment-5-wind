@@ -5,7 +5,8 @@
         "core": "*",
         "weatherbit": "github:sparkfun/pxt-weather-bit#v0.0.12",
         "microphone": "*",
-        "bluetooth": "*"
+        "bluetooth": "*",
+        "devices": "*"
     },
     "files": [
         "main.blocks",
